@@ -16,9 +16,17 @@ Kernel version: 5.15
 Debian version: 11 (bullseye)
 Size: 924MB
 
+
+$ df -h
+Filesystem      Size
+/dev/root        29G
+
+$ free -h
+               total
+Mem:           743Mi
+
 $ getconf LONG_BIT
 32
 
 $ cat /proc/cpuinfo
-
-Model           : Raspberry Pi 3 Model B Rev 1.2
+Model : Raspberry Pi 3 Model B Rev 1.2
